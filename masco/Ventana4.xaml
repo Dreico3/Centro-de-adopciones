@@ -1,0 +1,32 @@
+﻿<Window x:Class="masco.Ventana4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:masco"
+        mc:Ignorable="d"
+        Title="Ventana4" Height="450" Width="800">
+    <Grid Background="#FF797C43">
+        <Label Content="Nombre: " HorizontalAlignment="Left" Margin="58,125,0,0" VerticalAlignment="Top" Foreground="#FFFFE800"/>
+        <Label Content="Raza: " HorizontalAlignment="Left" Margin="58,151,0,0" VerticalAlignment="Top" Foreground="#FFFFE800"/>
+        <Label Content="Edad en meses: " HorizontalAlignment="Left" Margin="58,182,0,0" VerticalAlignment="Top" Foreground="#FFFFE800"/>
+        <Label Content="Encontrado en: " HorizontalAlignment="Left" Margin="58,213,0,0" VerticalAlignment="Top" Foreground="#FFFFE800"/>
+        <Label Content="Diacnostico y/o tratamiento: " HorizontalAlignment="Left" Margin="58,267,0,0" VerticalAlignment="Top" Foreground="#FFFFE800"/>
+        <Label Content="Genero: " HorizontalAlignment="Left" Margin="58,239,0,0" VerticalAlignment="Top" Foreground="#FFFFE800"/>
+        <TextBlock Name="tblNombre" HorizontalAlignment="Left" Margin="245,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" Foreground="#FFFFF985"/>
+        <TextBlock Name="tblRaza" HorizontalAlignment="Left" Margin="245,156,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" Foreground="#FFFFF985"/>
+        <TextBlock Name="tblEdad" HorizontalAlignment="Left" Margin="245,182,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" Foreground="#FFFFF985"/>
+        <TextBlock Name="tblLugar" HorizontalAlignment="Left" Margin="245,218,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" Foreground="#FFFFF985"/>
+        <TextBlock Name="tblDiacnostico" HorizontalAlignment="Left" Margin="245,272,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" Height="75" Foreground="#FFFFF985"/>
+        <TextBlock Name="tblGenero" HorizontalAlignment="Left" Margin="245,251,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" Foreground="#FFFFF985"/>
+        <Label Content="Datos de la mascota " HorizontalAlignment="Left" Margin="130,46,0,0" VerticalAlignment="Top" Foreground="#FFFFF0AB" FontSize="16" FontFamily="MV Boli"/>
+        <Label Content="Datos del adoptador/a" HorizontalAlignment="Left" Margin="546,46,0,0" VerticalAlignment="Top" Foreground="#FFFFF0AB" FontSize="16" FontFamily="MV Boli"/>
+        <Label Content="Nombre: " HorizontalAlignment="Left" Margin="465,115,0,0" VerticalAlignment="Top" Foreground="#FFFFE800"/>
+        <Label Content="Direccion: " HorizontalAlignment="Left" Margin="465,151,0,0" VerticalAlignment="Top" Foreground="#FFFFE800"/>
+        <Label Content="Telefono/cell: " HorizontalAlignment="Left" Margin="465,177,0,0" VerticalAlignment="Top" Foreground="#FFFFE800"/>
+        <TextBlock Name="tblNombreAdop" HorizontalAlignment="Left" Margin="565,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" Foreground="#FFFFF985"/>
+        <TextBlock Name="tblDireccionAdop" HorizontalAlignment="Left" Margin="565,156,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" Foreground="#FFFFF985"/>
+        <TextBlock Name="tblPhoneAdop" HorizontalAlignment="Left" Margin="565,182,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" Foreground="#FFFFF985"/>
+
+    </Grid>
+</Window>

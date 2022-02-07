@@ -1,0 +1,28 @@
+﻿<Window x:Class="masco.Ventana3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:masco"
+        mc:Ignorable="d"
+        Title="Ventana3" Height="400" Width="450" AllowsTransparency="True" WindowStyle="None">
+    <Grid Background="#FFDECC5B">
+        <TextBox Name="tbNombreA" HorizontalAlignment="Left" Height="23" Margin="250,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbApellidoA" HorizontalAlignment="Left" Height="23" Margin="250,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbDireccionA" HorizontalAlignment="Left" Height="23" Margin="250,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbCiA" HorizontalAlignment="Left" Height="23" Margin="250,193,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbNombreMascota" HorizontalAlignment="Left" Height="23" Margin="250,221,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="tbPhone" HorizontalAlignment="Left" Height="23" Margin="250,252,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Name="btnAgregarA" Content="Agregar" HorizontalAlignment="Left" Margin="100,305,0,0" VerticalAlignment="Top" Width="75" Click="btnAgregarA_Click" Background="#FFDECC5B" FontFamily="Lucida Calligraphy" BorderThickness="0"/>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="50,109,0,0" VerticalAlignment="Top" FontFamily="Lucida Handwriting"/>
+        <Label Content="Apellido" HorizontalAlignment="Left" Margin="50,137,0,0" VerticalAlignment="Top" FontFamily="Lucida Handwriting"/>
+        <Label Content="Direccion:" HorizontalAlignment="Left" Margin="50,165,0,0" VerticalAlignment="Top" FontFamily="Lucida Handwriting"/>
+        <Label Content="Ci. :" HorizontalAlignment="Left" Margin="50,193,0,0" VerticalAlignment="Top" FontFamily="Lucida Handwriting"/>
+        <Label Content="Nombre de la mascota:" HorizontalAlignment="Left" Margin="50,221,0,0" VerticalAlignment="Top" FontFamily="Lucida Handwriting"/>
+        <Button Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="260,305,0,0" VerticalAlignment="Top" Width="75" Background="#FFDECC5B" FontFamily="Lucida Calligraphy" BorderThickness="0" Click="btnCancelar_Click"/>
+        <Label HorizontalContentAlignment="Center" Content="Reguisto de adoptadores" HorizontalAlignment="Left" Margin="115,40,0,0" VerticalAlignment="Top" Width="230" Height="45" FontSize="16" FontFamily="Lucida Calligraphy"/>
+        <Label Content="Telefono/cell :" HorizontalAlignment="Left" Margin="50,248,0,0" VerticalAlignment="Top" FontFamily="Lucida Handwriting"/>
+
+
+    </Grid>
+</Window>
