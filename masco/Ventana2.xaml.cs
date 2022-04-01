@@ -36,7 +36,7 @@ namespace masco
             try
             {
 
-                if (System.IO.File.Exists("C:\\Users\\Stoya\\Desktop\\pes¿rsistencia\\masco\\Mascotas.dat"))
+                if (System.IO.File.Exists("Mascotas.dat"))
                 {
                     miLista = mArchivo.MostrarL();
                 }

@@ -31,7 +31,7 @@ namespace masco
         {
             bool flag = true;
 
-            if (System.IO.File.Exists("C:\\Users\\Stoya\\Desktop\\pes¿rsistencia\\masco\\Adoptador.dat"))
+            if (System.IO.File.Exists("Adoptador.dat"))
             {
                  ListaAdoptar = mArchivo.MostrarLAdop();
             }

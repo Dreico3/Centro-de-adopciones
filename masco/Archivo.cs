@@ -19,7 +19,7 @@ namespace masco
         {
             try
             {
-                mArchivo = new FileStream("C:\\Users\\Stoya\\Desktop\\pes¿rsistencia\\masco\\Mascotas.dat", FileMode.OpenOrCreate, FileAccess.Write);
+                mArchivo = new FileStream("Mascotas.dat", FileMode.OpenOrCreate, FileAccess.Write);
                 convertidor = new BinaryFormatter();
                 convertidor.Serialize(mArchivo, mMascota);
                 mArchivo.Close();
@@ -37,7 +37,7 @@ namespace masco
         {
             try
             {
-                mArchivo = new FileStream("C:\\Users\\Stoya\\Desktop\\pes¿rsistencia\\masco\\Mascotas.dat", FileMode.OpenOrCreate, FileAccess.Write);
+                mArchivo = new FileStream("Mascotas.dat", FileMode.OpenOrCreate, FileAccess.Write);
                 convertidor = new BinaryFormatter();
                 convertidor.Serialize(mArchivo, lMascota);
                 mArchivo.Close();
@@ -54,7 +54,7 @@ namespace masco
             Mascota mMascota = null;
             try
             {
-                mArchivo = new FileStream("C:\\Users\\Stoya\\Desktop\\pes¿rsistencia\\masco\\Mascotas.dat", FileMode.Open, FileAccess.Read);
+                mArchivo = new FileStream("Mascotas.dat", FileMode.Open, FileAccess.Read);
                 convertidor = new BinaryFormatter();
                 mMascota = (Mascota)convertidor.Deserialize(mArchivo);
                 mArchivo.Close();
@@ -72,7 +72,7 @@ namespace masco
             List<Mascota> lMascota = null;
             try
             {
-                mArchivo = new FileStream("C:\\Users\\Stoya\\Desktop\\pes¿rsistencia\\masco\\Mascotas.dat", FileMode.Open, FileAccess.Read);
+                mArchivo = new FileStream("Mascotas.dat", FileMode.Open, FileAccess.Read);
                 convertidor = new BinaryFormatter();
                 lMascota = (List<Mascota>)convertidor.Deserialize(mArchivo);
                 mArchivo.Close();
@@ -90,7 +90,7 @@ namespace masco
         {
             try
             {
-                mArchivo = new FileStream("C:\\Users\\Stoya\\Desktop\\pes¿rsistencia\\masco\\Adoptador.dat", FileMode.OpenOrCreate, FileAccess.Write);
+                mArchivo = new FileStream("Adoptador.dat", FileMode.OpenOrCreate, FileAccess.Write);
                 convertidor = new BinaryFormatter();
                 convertidor.Serialize(mArchivo, lAdoptadores);
                 mArchivo.Close();
@@ -109,7 +109,7 @@ namespace masco
             List<Adoptador> lAdoptador = null;
             try
             {
-                mArchivo = new FileStream("C:\\Users\\Stoya\\Desktop\\pes¿rsistencia\\masco\\Adoptador.dat", FileMode.Open, FileAccess.Read);
+                mArchivo = new FileStream("Adoptador.dat", FileMode.Open, FileAccess.Read);
                 convertidor = new BinaryFormatter();
                 lAdoptador = (List<Adoptador>)convertidor.Deserialize(mArchivo);
                 mArchivo.Close();
