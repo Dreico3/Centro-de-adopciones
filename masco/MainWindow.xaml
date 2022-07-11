@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:masco"
         mc:Ignorable="d"
-        Title="comodor" Height="450" Width="800" AllowsTransparency="True" WindowStyle="None" Icon="kisspng-arctic-fox-drawing-clip-art-5ad9f696ccbc27.1420104615242338788386.png">
+        Title="comodor" Height="480" Width="800"  Icon="kisspng-arctic-fox-drawing-clip-art-5ad9f696ccbc27.1420104615242338788386.png">
     <Grid Background="#FF084866">
 
         <Grid.RowDefinitions>
@@ -57,14 +57,13 @@
             </ListBox>
         </Grid>
         <Grid Grid.Row="2" Grid.ColumnSpan="2">
-            <Button BorderBrush="Green"  Name="btnActualizar" Click="btnActualizar_Click" Content="Agregar mascota" HorizontalAlignment="Left" Margin="45,35,0,0" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderThickness="0" FontFamily="Lucida Handwriting" Foreground="White" />
-            <Button BorderBrush="Green" Content="refresacar listas" HorizontalAlignment="Left" Margin="340,35,0,0" Grid.Row="1" VerticalAlignment="Top" Width="110" Click="Button_Click" RenderTransformOrigin="4.6,1.25" Background="{x:Null}" BorderThickness="0" FontFamily="Lucida Handwriting" Foreground="White"/>
-            <Button BorderBrush="Green" Name="btnBorrar" Content="Borrar mascota" Click="btnBorrar_Click" HorizontalAlignment="Left" Margin="45,67,0,0" VerticalAlignment="Top" Width="120" Background="{x:Null}" BorderThickness="0" FontFamily="Lucida Handwriting" Foreground="White"/>
-            <Button BorderBrush="MediumPurple" Name="btnAdoptador" Content="agregar Doptador" HorizontalAlignment="Left" Margin="560,35,0,0" VerticalAlignment="Top" Width="145" Click="btnAdoptador_Click" Background="{x:Null}" BorderThickness="0" FontFamily="Lucida Handwriting" Foreground="White"/>
-            <Button BorderBrush="PowderBlue" Name="btnBorrarA" Content="Borrar adoptador" HorizontalAlignment="Left" Margin="560,73,0,0" VerticalAlignment="Top" Width="145" Click="btnBorrarA_Click" Background="{x:Null}" BorderThickness="0" FontFamily="Lucida Handwriting" Foreground="White"/>
+            <Button BorderBrush="Green"  Name="btnActualizar" Click="btnActualizar_Click" Content="Agregar mascota" HorizontalAlignment="Left" Margin="45,35,0,0" VerticalAlignment="Top" Width="120" Background="#FF31C3D6" BorderThickness="0" FontFamily="Lucida Handwriting" Foreground="White" />
+            <Button BorderBrush="Green" Content="refresacar listas" HorizontalAlignment="Left" Margin="340,35,0,0" Grid.Row="1" VerticalAlignment="Top" Width="110" Click="Button_Click" RenderTransformOrigin="4.6,1.25" Background="#FF205765" BorderThickness="0" FontFamily="Lucida Handwriting" Foreground="White"/>
+            <Button Name="btnBorrar" Content="Borrar mascota" Click="btnBorrar_Click" HorizontalAlignment="Left" Margin="45,67,0,0" VerticalAlignment="Top" Width="120" Background="#FF31C3D6" BorderThickness="0,0,0,0" FontFamily="Lucida Handwriting" Foreground="White" ClipToBounds="False"/>
+            <Button Name="btnAdoptador" Content="agregar Doptador" HorizontalAlignment="Left" Margin="560,35,0,0" VerticalAlignment="Top" Width="145" Click="btnAdoptador_Click" Background="#FF31C3D6" BorderThickness="0" FontFamily="Lucida Handwriting" Foreground="White" BorderBrush="#FFED0909"/>
+            <Button BorderBrush="#FF0D7784" Name="btnBorrarA" Content="Borrar adoptador" HorizontalAlignment="Left" Margin="560,73,0,0" VerticalAlignment="Top" Width="145" Click="btnBorrarA_Click" Background="#FF31C3D6" BorderThickness="0" FontFamily="Lucida Handwriting" Foreground="White"/>
 
         </Grid>
-        <Label MouseDown="Label_MouseDown" HorizontalContentAlignment="Center" Content="X" HorizontalAlignment="Left" Margin="780,0,0,0" VerticalAlignment="Top" Foreground="White" Width="20" FontSize="10" Background="#FFF72525" FontFamily="Segoe UI Semibold" Height="22"/>
         <Label Name="lbNombre" Content="Nombre" HorizontalAlignment="Left" Margin="0,34,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" Foreground="White" MouseDown="lbNombre_MouseDown"/>
         <Label Content="Direccion" HorizontalAlignment="Left" Margin="607,34,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" Foreground="White"/>
         <Label Content="Apellidos" HorizontalAlignment="Left" Margin="506,34,0,0" VerticalAlignment="Top" FontFamily="Lucida Calligraphy" Foreground="White"/>

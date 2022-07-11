@@ -54,7 +54,13 @@ namespace masco
         {
             try
             {
-                if ((LboxMascotas.SelectedItem as Mascota).Codigo!="sin adoptar")
+                if ((LboxMascotas.SelectedItem as Mascota) == null)
+                {
+                    MessageBox.Show("no seleccionate a una mascota ");
+                }
+                else
+                {
+                    if ((LboxMascotas.SelectedItem as Mascota).Codigo!="sin adoptar")
                 {
                     for (int i = 0; i < ListaAdoptador.Count; i++)
                     {
@@ -71,6 +77,8 @@ namespace masco
                 //LboxMascotas.ItemsSource = null;
                 //LboxMascotas.ItemsSource = ListaPeets;
                 Actualizar();
+
+                }
 
             }
             catch (Exception ex)
@@ -90,6 +98,9 @@ namespace masco
         {
             try
             {
+                if((LboxAdoptador.SelectedItem as Adoptador) != null)
+                {
+
                 for (int i = 0; i < ListaPeets.Count; i++)
                 {
                     if ((LboxAdoptador.SelectedItem as Adoptador).ci.Equals(ListaPeets[i].Codigo))
@@ -106,6 +117,11 @@ namespace masco
                 mArchivo.GuardarAdop(ListaAdoptador);
                 LboxAdoptador.ItemsSource = null;
                 LboxAdoptador.ItemsSource = ListaAdoptador;
+                }
+                else
+                {
+                    MessageBox.Show("No seleeccionaste un adoptador");
+                }
 
             }
             catch (Exception)
